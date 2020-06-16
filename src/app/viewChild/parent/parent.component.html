@@ -1,0 +1,10 @@
+<p>parent works!</p>
+
+<!-- Here ChildExample is reference variable of child component  -->
+<!-- And products is response of array data -->
+<app-child [childExample]="products"></app-child>
+<app-child2 (exampleOutput)="childData($event)"></app-child2>
+
+<div *ngFor="let x of result">
+    <p>{{x.student_No}}       {{x.student_Name}}       {{x.student_Marks}}</p>
+</div>

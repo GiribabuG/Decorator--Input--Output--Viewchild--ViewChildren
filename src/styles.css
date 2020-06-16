@@ -1,0 +1,104 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.primary-button,.secondary-button {
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 25px; 
+    font-size: 14px;
+  }
+  .primary-button, .primary-button:hover {
+    color: #fff;
+  }
+  .primary-button {
+    background: #1DB0B3;
+    margin:5px !important;
+    
+  }
+  .pad40 .mat-raised-button{
+    padding: 0px 50px;
+  }
+  .formfield .mat-form-field {
+    width: 100%;
+  }
+  .pad-btm-10 {
+    padding-bottom: 10px;
+  }
+  .mat-form-field-wrapper{
+    padding:0 !important;
+  }
+  .popup-body{
+    padding:30px 30px 0;
+    
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .matErrorClass .snack-icon{
+    color:rgb(250, 74, 74);
+    }
+    .mat-snack-bar-container {
+      max-width: 800px;
+    }
+    .snack-message{
+      line-height: 30px;
+      padding-left:20px;
+    }
+    .snack-icon{
+      position: relative;
+      top:8px;
+    }
+    .matErrorClass .iconClass{
+      color:#76F987;
+    }
+    .matSuccessClass{
+      background:#fff;
+      color:#000;
+      border:1px solid #76F987;
+    }
+    .matSuccessClass .mat-icon{
+      color:#76F987;
+    }
+    .matWarningClass{
+      background:rgba(235, 157, 14, 0.3);
+      color:#000;
+      border:1px solid rgb(236, 177, 14);
+    }
+    
+    .matSuccessClass.snack-icon{
+      color:#76F987;
+      }
+    .matSuccessClass .iconClass{
+      color:#76F987;
+    }
+    .small-link, .small-link:hover {
+      font-family: 'Helvetica-Bold', Arial, Verdana, Tahoma, sans-serif;
+      color: #1DB0B3;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .mat-form-field .mat-select.mat-select-invalid .mat-select-arrow, .mat-select-arrow {
+    color: #fff !important;
+  }
+
+  /* body{margin: 0; height: 100%; overflow: hidden} */
+  /* .mat-toolbar-row, .mat-toolbar-single-row {
+
+  width: 85% !important;
+  float: right;
+} */
+
+.example-sidenav-content{
+
+}
+/* .example-sidenav-container {
+  flex: 1;
+  overflow: visible;
+} */
+
+
+.example-is-mobile .example-sidenav-container {
+  /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+     `<body>` to be our scrolling element for mobile layouts. */
+  /* flex: 1 0 auto; */
+}
