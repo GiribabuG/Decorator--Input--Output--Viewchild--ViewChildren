@@ -1,1 +1,8 @@
 <p>parent2 works!</p>
+<div class="col-sm-6">
+    <div *ngFor="let x of products">
+        <div>
+            <a [routerLink]="['/view/parent/child8',x.product_id]">{{x.product_id}}</a>
+        </div>
+    </div>
+</div>

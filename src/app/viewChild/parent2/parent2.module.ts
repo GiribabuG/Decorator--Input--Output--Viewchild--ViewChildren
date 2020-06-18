@@ -10,7 +10,8 @@ import { Child8Component } from './child8/child8.component';
 
 const routes: Routes = [
 {path:'',component:Parent2Component},
-{path:'child8', component:Child8Component}
+{path:'child8', component:Child8Component},
+{path:'child8/:id', component:Child8Component}
 ]
 
 
